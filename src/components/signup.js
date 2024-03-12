@@ -114,15 +114,6 @@ const SignUp = () => {
           </IconContainer>
           );
         })}
-           <IconContainer>
-            <InputIcon
-              className="fa fa-id-card-o"
-              aria-hidden="true"
-            ></InputIcon>
-            <InputField name="college" type="number" placeholder="TID" />
-            <Button className="Verify"> Verify</Button>
-
-          </IconContainer>
 
           <SignUpButton onClick={popup}>Pay Now</SignUpButton>
         </Container>
